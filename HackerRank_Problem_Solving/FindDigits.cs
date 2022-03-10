@@ -34,7 +34,7 @@ namespace HackerRank_Problem_Solving
                         }
                         else
                         {
-
+                            Console.WriteLine("Divisor is not Valid.");
                         }
                     }
                     else

@@ -1,5 +1,6 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Linq;
 
 namespace HackerRank_Problem_Solving
 {
@@ -42,20 +43,42 @@ namespace HackerRank_Problem_Solving
 
             ////TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            int t = Convert.ToInt32(Console.ReadLine().Trim());
+            //int t = Convert.ToInt32(Console.ReadLine().Trim());
 
-            for (int tItr = 0; tItr < t; tItr++)
-            {
-                int n = Convert.ToInt32(Console.ReadLine().Trim());
+            //for (int tItr = 0; tItr < t; tItr++)
+            //{
+            //    int n = Convert.ToInt32(Console.ReadLine().Trim());
 
-                int result = FindDigits.findDigits(n);
+            //    int result = FindDigits.findDigits(n);
 
-                Console.WriteLine(result);
-            }
+            //    Console.WriteLine(result);
+            //}
+
+            ////textWriter.Flush();
+            ////textWriter.Close();
+
+
+            ////Problem 3:
+            /*You are given a number of sticks of varying lengths. You will iteratively cut the sticks into smaller sticks, 
+             * discarding the shortest pieces until there are none left. 
+             * At each iteration you will determine the length of the shortest stick remaining, 
+             * cut that length from each of the longer sticks and then discard all the pieces of that shortest length. 
+             * When all the remaining sticks are the same length, they cannot be shortened so discard them.
+             * Given the lengths of  sticks, print the number of sticks that are left before each iteration until there are none left.*/
+
+
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+            int n = Convert.ToInt32(Console.ReadLine().Trim());
+
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+
+            List<int> result = Cut_The_Sticks.cutTheSticks(arr);
+
+            Console.WriteLine(String.Join("\n", result));
 
             //textWriter.Flush();
             //textWriter.Close();
-
         }
     }
 }
