@@ -9,7 +9,6 @@ namespace HackerRank_Problem_Solving
         public static List<int> cutTheSticks(List<int> arr)
         {
             List<int>Count = new List<int>();
-            List<int> OriginalList = arr;
             List<int> modified = arr;
             List<int> modified_Temp = new List<int>();
 

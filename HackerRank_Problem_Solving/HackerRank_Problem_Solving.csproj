@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Cut_The_Sticks.cs" />
     <Compile Include="FindDigits.cs" />
+    <Compile Include="FlippingBits.cs" />
     <Compile Include="Number_Line_Jumps.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
