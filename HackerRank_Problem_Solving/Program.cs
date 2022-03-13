@@ -96,7 +96,7 @@ namespace HackerRank_Problem_Solving
 
 
             ////Problem 5: Utopian Tree
-            
+
             //int t = Convert.ToInt32(Console.ReadLine().Trim());
 
             //for (int tItr = 0; tItr < t; tItr++)
@@ -108,6 +108,18 @@ namespace HackerRank_Problem_Solving
             //    Console.WriteLine(result);
             //}
 
-    }
+            ////Problem 6: Funny String
+            
+            //int q = Convert.ToInt32(Console.ReadLine().Trim());
+
+            //for (int qItr = 0; qItr < q; qItr++)
+            //{
+            //    string s = Console.ReadLine();
+
+            //    string result = FunnyString.funnyString(s);
+
+            //    Console.WriteLine(result);
+            //}
+        }
     }
 }
