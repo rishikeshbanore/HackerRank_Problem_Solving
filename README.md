@@ -8,3 +8,4 @@ Code contains solution for below mentioned Problems:
 3. Cut the Sticks
 4. Flip Digit
 5. Utopian Tree
+6. Funny String
