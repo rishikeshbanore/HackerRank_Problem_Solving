@@ -109,7 +109,7 @@ namespace HackerRank_Problem_Solving
             //}
 
             ////Problem 6: Funny String
-            
+
             //int q = Convert.ToInt32(Console.ReadLine().Trim());
 
             //for (int qItr = 0; qItr < q; qItr++)
@@ -120,6 +120,15 @@ namespace HackerRank_Problem_Solving
 
             //    Console.WriteLine(result);
             //}
+
+            ////Problem 7: superReducedString
+            
+
+            string s = Console.ReadLine();
+
+            string result = SuperReducedString.superReducedString(s);
+
+            Console.WriteLine(result);
         }
     }
 }

@@ -9,8 +9,6 @@ namespace HackerRank_Problem_Solving
         public static string funnyString(string s)
         {
             string OriginalString = s;
-            //string ReversedString = s;
-            char[] ReversedString = s.ToCharArray();
             int DiffCount = 0;
             List<int> AsciOriginalString = new List<int>();
             List<int> AsciReversedString = new List<int>();
@@ -24,12 +22,6 @@ namespace HackerRank_Problem_Solving
             }
 
             AsciReversedString= Enumerable.Reverse(AsciOriginalString).ToList();
-
-            ////Getting ASCI Numbers for Chars in Reversed String.
-            //foreach (char c in ReversedString)
-            //{
-            //    AsciReversedString.Add((int)c);
-            //}
 
             //Calculating Difference in Adj ASCI coded in Original Screen.
             for (int i = 0; i < AsciOriginalString.Count()-1; i++)

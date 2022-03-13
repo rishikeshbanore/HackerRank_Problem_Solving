@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SuperReducedString.cs" />
     <Compile Include="Cut_The_Sticks.cs" />
     <Compile Include="FindDigits.cs" />
     <Compile Include="FlippingBits.cs" />
