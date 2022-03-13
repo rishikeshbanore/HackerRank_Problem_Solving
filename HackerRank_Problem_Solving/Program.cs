@@ -83,17 +83,31 @@ namespace HackerRank_Problem_Solving
              * Flip all the bits ( and ) and return the result as an unsigned integer.*/
 
 
-            int q = Convert.ToInt32(Console.ReadLine().Trim());
+            //int q = Convert.ToInt32(Console.ReadLine().Trim());
 
-            for (int qItr = 0; qItr < q; qItr++)
-            {
-                long n = Convert.ToInt64(Console.ReadLine().Trim());
+            //for (int qItr = 0; qItr < q; qItr++)
+            //{
+            //    long n = Convert.ToInt64(Console.ReadLine().Trim());
 
-                long result = FlippingBits.flippingBits(n);
+            //    long result = FlippingBits.flippingBits(n);
 
-                Console.WriteLine(result);
-            }
+            //    Console.WriteLine(result);
+            //}
 
-        }
+
+            ////Problem 5: Utopian Tree
+            
+            //int t = Convert.ToInt32(Console.ReadLine().Trim());
+
+            //for (int tItr = 0; tItr < t; tItr++)
+            //{
+            //    int n = Convert.ToInt32(Console.ReadLine().Trim());
+
+            //    int result = UtopianTree.utopianTree(n);
+
+            //    Console.WriteLine(result);
+            //}
+
+    }
     }
 }
